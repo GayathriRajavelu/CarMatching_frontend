@@ -13,7 +13,7 @@ function Results(){
     useEffect(()=>{
         axios
         .post(
-            "http://localhost:5000/api/recommend",
+            "https://carmatching-backend.onrender.com",
             state
         )
         .then((res) =>{
